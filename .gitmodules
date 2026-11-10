@@ -1,0 +1,5 @@
+[submodule "third_party/kneejerk"]
+	path = third_party/kneejerk
+	url = https://github.com/ehollbach/kneejerk.git
+	branch = main
+	shallow = true

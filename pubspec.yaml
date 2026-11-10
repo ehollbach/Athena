@@ -1,0 +1,26 @@
+name: athena
+description: "Yes or no answers about any message, on your phone."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  athena_native:
+    path: packages/athena_native
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # shown on the licenses page, read from the submodule
+    - third_party/kneejerk/LICENSE
+    - third_party/kneejerk/llama.cpp/LICENSE

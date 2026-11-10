@@ -1,0 +1,4 @@
+{
+  global: systemone_*;
+  local: *;
+};
